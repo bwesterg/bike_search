@@ -1,3 +1,5 @@
+Bike.destroy_all
+
 Bike.create([
     {
         name: 'Specialized',
