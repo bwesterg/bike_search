@@ -1,7 +1,5 @@
 class BikesController < ApplicationController
 
-    # testing git version control issue, making a file change...
-
     def index
         @bikes = Bike.all
         render json: @bikes
