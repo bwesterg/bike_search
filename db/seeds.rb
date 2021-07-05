@@ -2,13 +2,6 @@ Bike.destroy_all
 
 Bike.create([
     {
-        name: 'Specialized',
-        material: 'Carbon',
-        origin: 'Taiwan',
-        discipline: 'Road',
-        image: 'https://s7d5.scene7.com/is/image/Specialized/94920-00_TARMAC-SL7-SW-DI2-FLORED-TARBLK-WHT_HERO'
-    },
-    {
         name: 'Pinarello',
         material: 'Carbon',
         origin: 'China',
@@ -28,5 +21,12 @@ Bike.create([
         origin: 'Italy',
         discipline: 'Road',
         image: 'https://racycles.azureedge.net/assets/standard/11580/large/Colnago_C59_GDYB.jpg'
+    },
+    {
+        name: 'Giant',
+        material: 'Carbon',
+        origin: 'Taiwan',
+        discipline: 'Road',
+        image: 'https://images.giant-bicycles.com/b_white,c_pad,h_600,q_80,w_800/xhyl7aatzslk7bv8zhmn/MY20TCRADPRO1_ColorA.jpg'
     }
 ])
