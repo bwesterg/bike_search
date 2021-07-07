@@ -1,5 +1,8 @@
 Bike.destroy_all
 
+
+
+# additional seeds may be added on front end
 Bike.create([
     {
         name: 'Pinarello',
